@@ -2,7 +2,7 @@ from fill_DB.fill_database import ConnectDB
 
 
 class DBManager:
-    """Класс для работы с БД посредством SQL запросов запросам"""
+    """Класс для работы с БД посредством SQL-запросов"""
 
     @staticmethod
     def get_companies_and_vacancies_count(table_name_emp: str, table_name_vac:str):
